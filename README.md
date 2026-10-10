@@ -1,7 +1,7 @@
 # Apuração Amapá 2026
 
 Painel com a apuração das Eleições Gerais Estaduais 2026 (1º turno, 4/10/2026) no Amapá.
-Permite filtrar a votação dos candidatos por município, zona eleitoral, local de votação e seção.
+Permite filtrar a votação dos candidatos por município, zona eleitoral, área (sede ou interior, estimada pelo nome do bairro), bairro, local de votação e seção.
 
 ## Arquivos
 
@@ -15,6 +15,8 @@ Portal de Dados Abertos do TSE:
 
 - Votação por seção eleitoral 2026, Amapá (`votacao_secao_2026_AP.csv`, gerado em 06/10/2026 14:03:43).
 - Votação nominal por município e zona 2026, Amapá (`votacao_candidato_munzona_2026_AP.csv`), usado para nome de urna, partido, federação e situação.
+
+- Eleitorado por local de votação 2026, Amapá (`eleitorado_local_votacao_2026_AP.csv`): bairro oficial e eleitores aptos de cada seção, incluindo seções agregadas. A lista de locais com bairro e aptos está em `localidades_amapa.csv`.
 
 Os totais por seção conferem com os totais por município e zona do TSE para todos os candidatos.
 
